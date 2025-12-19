@@ -1,4 +1,4 @@
-public class WhileLoopIterationStatement {
+public class WhileLoop {
     public static void main (String [] args){
         // Count down 10 to 0
         int countNum =10;
@@ -52,7 +52,23 @@ public class WhileLoopIterationStatement {
         }
         System.out.println(reversed);
 
-        // start from page number 163
+        // Nested while: > Print prime number 1-100
+        int number5 = 2;
+        while(number5<=100){
+             int i1 =2;
+             boolean prime = true;
+             while(i1*i1 <=number5){
+                 if(number5 % i1 == 0){
+                     prime =false;
+                     break;
+                 }
+                 i1++;
+             }
+             if(prime){
+                 System.out.println(number5 + " is prime");
+             }
+             number5++;
+        }
 
     }
 }
