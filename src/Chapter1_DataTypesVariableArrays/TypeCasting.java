@@ -2,7 +2,6 @@ package Chapter1_DataTypesVariableArrays;
 
 public class TypeCasting {
     public static void main (String [] args){
-        //Baron shoot into library to follow my dick cause he likes black cock
         //byte < short < int < long < float < double
         double d = 55555.66d;
         float f = (float)d;
