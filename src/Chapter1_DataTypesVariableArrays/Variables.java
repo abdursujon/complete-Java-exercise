@@ -1,3 +1,5 @@
+package Chapter1_DataTypesVariableArrays;
+
 public class Variables {
     int a, b, c; // declares three variables at once
     int d=3, e,f=5;

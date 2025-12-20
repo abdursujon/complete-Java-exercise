@@ -1,3 +1,5 @@
+package Chapter2_Operators;
+
 public class Operators{
     public static void main (String [] args){
 
@@ -10,7 +12,7 @@ public class Operators{
         int mod = a%b;
         System.out.println(sum + " " + sub + " " + mul + " " + div + " " + mod);
 
-        //2. Unary Operators (++,--) (two of them)
+        //2. Unary DataTypesVariableArrays.Operators (++,--) (two of them)
         int c = 8; int d = 894;
         System.out.println("Postincrement (Increment happens after ++ is implemented) " + (c++));
         System.out.println("Preincrement (bla bla) " + (++c));
@@ -28,7 +30,7 @@ public class Operators{
         n /=2;  // n = n / 2  (n is now 47)
         System.out.println(n);
 
-        // 4. Relational Operators (>; >=; <; <=; ==; !=) six of them
+        // 4. Relational DataTypesVariableArrays.Operators (>; >=; <; <=; ==; !=) six of them
         int e = 21;
         int f = 22;
         int g = 23;

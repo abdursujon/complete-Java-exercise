@@ -1,3 +1,5 @@
+package Chapter1_DataTypesVariableArrays;
+
 public class DataTypes {
     // Primitive data types
 
